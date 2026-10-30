@@ -1,0 +1,192 @@
+variable => a variable is a named memory location used to store a value 
+
+to store a variable => define a type of value 
+
+
+
+datatype => what knid of data we stored in the variable 
+
+1. primitve => 8 types 
+
+byte , short , int , long , float , double , char , boolean 
+
+2. refrence type => string , array , class , object , interface 
+
+byte gives a number on the range of => -128 to 127
+
+short => -32,768 to 32,767
+
+int => 10 digit number range  => 2,000,000,000
+
+long => it have a maximum number 
+
+float => it is for small decimal no 
+
+double is for big decimal no 
+
+
+
+type casting means converting a value from one datatype to another datatype 
+
+
+widening casting / implicit casting  => smaller > large 
+
+
+Narrowing casting  / explicit casting => large to smaller  
+
+
+operator => an symbol that tells java to perform the operation or task 
+
+operator apply between 2 variable or 2 values => 
+
+a + b => a , b => operand , + => operator 
+
+
+Airthmetic operator  => + , - , * , / , % (modulus => reminder)
+assignment operator  => += , -= , *= , /= , %=  
+relational / comparision operator  => > , < , >= , <= , == , != 
+logical operator  => &&(AND) , || (OR) , !(NOT)
+urany operator   => ++ , -- , !
+increament / decreament  => post increment , pre increment , post decrement , pre decrement 
+ternary operator => it is short form of if else statement 
+=> condition ? "true statement" : "rest statement";
+
+bitwise  => &(AND) , ` |(OR) , ^(XOR)   , ~(NOT)  , << (left shift ) , >>(right shift) ,  
+
+1 = true 
+0 = false 
+
+
+
+
+= => assign 
+== => compare , equal 
+
+
+
+
+()
+
+urany => ++ -- !
+
+* / % 
+
++ - 
+
+< > >= <=
+
+== !=
+
+&& 
+
+|| 
+
+?:
+
+= += -= *= /= %=
+
+
+
+
+conditional statement => according to the condition choose the statement 
+
+if / else  => 
+
+if => first condition or main condition , and according to this our statement
+else => rest statement => we can never write any condition in the else part 
+
+
+multiple condition => more than 2 => else if 
+
+
+
+Loop => loops are block of code that can define the condition , of starting and ending , and reduce the repetation of code 
+
+
+there are 3 types of loop 
+
+for loop  => in this loop  we can define the infinite iteration => code run after the execution 
+
+while loop  => in this code run => before execution
+
+do-while loop  => this loop , it runs atleast once , until the condition is false 
+
+
+
+
+methods => a mathods is a block of code that performs a particular task when it is calles 
+
+how to make a method 
+
+methods have 3 prototypes 
+
+1. declaration  => static keyword , return type , function name 
+2. defination  => to define the block of code 
+3. calling  => to call method so it can run 
+
+declaration and defination are define outside the main function 
+
+
+syntax of methods 
+
+static returnType methodname() {
+    define the code 
+    return 
+}
+
+methodname();
+
+
+
+parameter => when we declare a function and we a declare only varibale not defining the value 
+argument  => to define the value of the varibale => when we call the method 
+
+
+
+
+
+method overloading => it means creating multiple methods with a same name but different parameter list in a same class 
+
+
+
+same name , different no of parameter => yes 
+same name , different parameter type => yes 
+same name , different order of parameter type => yes 
+same name , differnt return type => no valid 
+same name , parameters different varibale names only => not valid 
+
+
+
+recursion => recursion is a process in which a method calls itself to solve a problem 
+
+
+base condition = to stop the process 
+
+recursive case => to continue the process 
+
+
+
+array => to store multiple values in a single varibale is called array 
+
+
+datatype[] arrayname = new datatype[size];
+
+
+
+  //    2D array => 2 dimensional array 
+
+    //    arr[row][column]  =[ {1,2,3} , {4,5,6}]
+
+
+    //    arr[2][3]
+
+    //    123
+    //    456
+   
+
+syntax of 2d array declare 
+
+
+datatype[][] arrayname = new datatype[row][column]
+
+
