@@ -190,3 +190,47 @@ syntax of 2d array declare
 datatype[][] arrayname = new datatype[row][column]
 
 
+OOP=> object oriented programming 
+
+it is based on the classes and object 
+
+data (property) => information about an object 
+method  (behaviour) => action an object can perform 
+
+
+in java
+
+property => it can represent by variable 
+behaiour => it can represent by methods 
+
+
+
+why we use OOP 
+
+
+=> code reusability 
+=> code security 
+=> easy maintenance 
+=> easier testing and exetension 
+
+
+
+
+
+4 main pillars of oops 
+
+1. encapsulation 
+2. inheritance 
+3. polymorphism 
+4. abstraction 
+
+
+
+
+class => a class is a blueprint or template used to create a object 
+
+object => it is an real world entity of the class 
+
+
+
+
