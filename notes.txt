@@ -231,6 +231,26 @@ class => a class is a blueprint or template used to create a object
 
 object => it is an real world entity of the class 
 
+constructor => constructor is a special memeber of a class that is automatically created when an object is created 
+
+
+rules of constructor
+
+1. name as same as class name 
+2. a constructor does not have a return type  , not even void 
+3. constructor can be overloaded 
+
+
+
+
+types of constructor 
+1. default 
+2. no argument 
+3. parameterized constructor 
+4. copy constructor 
+5. constructor overload
+
+
 
 
 
