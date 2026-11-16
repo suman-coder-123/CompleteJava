@@ -54,14 +54,75 @@ public class Oop {
 
 
 
-        Student s1 = new Student(101 , "suman");
-        Student s2 = new Student(s1);
+        // Student s1 = new Student(101 , "suman");
+        // Student s2 = new Student(s1);
 
-        s1.display();
-        s2.display();
+        // s1.display();
+        // s2.display();
 
+
+
+        Student s1 = new Student();
+        // Student s2 = new Student();
+
+
+        // s1.setData(101, "suman");
+        // s1.display();
+
+
+        // s2.setData(102, "rahul");
+        // s2.display();
     }
 }
+
+
+// class Student {
+//     int id ;
+//     String name ;
+
+
+//     void setData(int id , String name) {
+//         this.id = id ;
+//         this.name = name;
+//     }
+
+
+//     void display () {
+//         System.out.println(id);
+//         System.out.println(name);
+//     }
+// }
+
+
+
+class Student {
+    Student() {
+        this(101 , "suman");
+        System.out.println("default constructor");
+    }
+
+    Student(int id , String name ) {
+        System.out.println("ID = " + id);
+    }
+}
+
+
+
+
+
+// difference between 
+//  this => refer to current  object 
+//  this() => to call the another constructor  
+
+
+
+
+
+
+
+
+
+
 
 
 // class Student {
@@ -138,25 +199,25 @@ public class Oop {
 
 
 
-class Student {
-    int id;
-    String name;
+// class Student {
+//     int id;
+//     String name;
 
 
-    Student(int i , String n){
-        id = i;
-        name = n;
-    }
+//     Student(int id , String name){
+//         id = id;
+//         name = name;
+//     }
 
-    Student (Student s) {
-        id = s.id;
-        name = s.name;
-    }
+//     Student (Student s) {
+//         id = s.id;
+//         name = s.name;
+//     }
 
-    void  display() {
-        System.out.println(id + " " + name);
-    }
-}
+//     void  display() {
+//         System.out.println(id + " " + name);
+//     }
+// }
 
 
 

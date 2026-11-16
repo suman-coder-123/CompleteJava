@@ -252,5 +252,17 @@ types of constructor
 
 
 
+instance variable  =>  it is only created for a class , => to create a object 
+class properties => varibale 
+
+local variable  =>  method  parameters => 
+
+
+
+to solve the confusion we use this keyword => 
+
+
+this keyword =>to refer the current object of the class 
+
 
 
