@@ -266,3 +266,34 @@ this keyword =>to refer the current object of the class
 
 
 
+
+
+// difference between 
+//  this => refer to current  object 
+//  this() => to call the another constructor  
+
+
+
+
+
+oops => 
+1. Encapsulation => it is the process of wrapping data (variables , ) and methods in a single unit (class)
+and restricting direct access to the data 
+
+
+1. data security 
+2. data hiding 
+3. validation 
+4. control 
+5. maintenance
+
+
+
+data hiding => make this varibales private 
+
+
+to access this varibales => we create two methods 
+
+getter => gets or read a varibale name 
+setter => sets or update a varibale name 
+
